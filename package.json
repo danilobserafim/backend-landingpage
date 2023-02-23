@@ -4,7 +4,7 @@
   "description": "Backend para contato de uma landingpage",
   "main": "app.js",
   "engines": {
-    "node": 
+    "node": "18.x" 
   },
   "scripts": {
     "start": "node app.js",
