@@ -5,7 +5,7 @@ const cors = require("cors")
 const bodyParser = require('body-parser')
 require("dotenv").config()
 
-mongoose.set('strictQuery', false) 
+mongoose.set('strictQuery', true) 
  
 
 app.use(bodyParser.urlencoded({ extended: false }))
