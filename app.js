@@ -27,4 +27,6 @@ mongoose.connect(`mongodb+srv://barfim:Senha1073@quatro-patas.xlkmqjz.mongodb.ne
     
 })
 
+module.exports = app
+
 
