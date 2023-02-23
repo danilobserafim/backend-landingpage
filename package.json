@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Backend para contato de uma landingpage",
   "main": "app.js",
+  "engines": {
+    "node":"18.x"
+
+  },
   "scripts": {
     "start": "node app.js",
     "vercel-build":"npx prisma migrate deploy",
