@@ -19,7 +19,7 @@ app.use("/", routeContato)
  
 
 
-mongoose.connect(`mongodb+srv://${process.env.USER}:${process.env.PASSWORLD}@quatro-patas.xlkmqjz.mongodb.net/?retryWrites=true&w=majority`).then( () => {
+mongoose.connect(`mongodb+srv://barfim:Senha1073@quatro-patas.xlkmqjz.mongodb.net/?retryWrites=true&w=majority`).then( () => {
     console.log("ok");
     app.listen(3333)
 }).catch( (error) =>{
