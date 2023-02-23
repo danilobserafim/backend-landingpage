@@ -20,7 +20,6 @@ app.use("/", routeContato)
 
 
 mongoose.connect(`mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@quatro-patas.xlkmqjz.mongodb.net/?retryWrites=true&w=majority`).then( () => {
-    console.log("ok");
     app.listen(process.env.PORT || 3333)
 }).catch( (error) =>{
     console.log(error);
