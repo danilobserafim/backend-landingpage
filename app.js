@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 require("dotenv").config()
 
 mongoose.set('strictQuery', false) 
-
+ 
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
