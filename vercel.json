@@ -1,21 +1,6 @@
 {
-    "version": 2,
-    "builds":[
-        {
-            "src": "./app.js",
-            "use": "@vercel/node"
-        }
-    ],
-    "routes":[
-        {
-            "srcsource": "(.*)",
-            "destination": "./app.js"
-        }
-    ],
-    "rewrites": [
-        { 
-            "src": "(.*)", 
-            "destination": "./app.js" 
-        }
-    ]
-}
+    "crons": [{
+      "path": "./",
+      "schedule": "0 10 * * *"
+    }]
+  }
