@@ -1,6 +1,6 @@
 {
     "crons": [{
-      "path": "./",
+      "path": "./app.js",
       "schedule": "0 10 * * *"
     }]
   }
