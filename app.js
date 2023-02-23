@@ -21,7 +21,7 @@ app.use("/", routeContato)
 
 mongoose.connect(`mongodb+srv://barfim:Senha1073@quatro-patas.xlkmqjz.mongodb.net/?retryWrites=true&w=majority`).then( () => {
     console.log("ok");
-    app.listen(3333)
+    app.listen(process.env.PORT || 3333)
 }).catch( (error) =>{
     console.log(error);
     
